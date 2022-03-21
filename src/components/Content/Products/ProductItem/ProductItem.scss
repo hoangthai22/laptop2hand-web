@@ -1,0 +1,12 @@
+.product__item__detail{
+    max-width: 25% !important;
+    animation: .4s ease-out 0s 1 slideInFromLeft;
+}
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-10%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }

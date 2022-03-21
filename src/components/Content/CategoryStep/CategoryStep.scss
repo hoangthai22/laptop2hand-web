@@ -1,0 +1,15 @@
+.category__step__wrapper {
+  display: flex;
+  margin-top: 40px;
+  font-size: 16px;
+  color: #6b6b6b !important;
+  & > span:first-child {
+    border-right: 1px solid #6b6b6b;
+    padding-right: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  & > span:last-child{
+      cursor: pointer;
+  }
+}

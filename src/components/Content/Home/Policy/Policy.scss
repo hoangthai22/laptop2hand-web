@@ -1,0 +1,53 @@
+@import "../../../../App.scss";
+
+.policy__wrapper {
+  max-width: 1155px;
+  margin-bottom: 50px;
+}
+.policy__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid $primary-color;
+  border-top: 1px solid $primary-color;
+  padding: 70px 0;
+
+  .policy__item {
+    text-align: center;
+    // width: 375px;
+    cursor: default;
+    // -webkit-user-select: none;
+    // -khtml-user-select: none;
+    // -moz-user-select: none;
+    // -ms-user-select: none;
+    // -o-user-select: none;
+    // user-select: none;
+    font-size: 60px;
+    &__icon {
+      transition: all 0.4s ease-in-out;
+      &:hover {
+        transform: rotateY(180deg);
+      }
+    }
+
+    &__text-bold {
+      text-transform: uppercase;
+      font-size: 16px;
+      display: block;
+      margin: 40px 0 8px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 20px;
+      text-align: center;
+      color: #000;
+    }
+    &__text {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 17px;
+      text-align: center;
+      color: #000;
+      font-family: "Quicksand", sans-serif;
+    }
+  }
+}

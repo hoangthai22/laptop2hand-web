@@ -1,0 +1,41 @@
+@import "../../../../App.scss";
+
+.GoTop__wrapper {
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  cursor: pointer;
+
+  &:hover .gotop__icon {
+    color: $primary-color;
+    transform: translateY(-6px);
+  }
+
+  &:hover .goto__visible {
+   transform: translateY(-22px);
+  }
+
+  &:hover {
+    border: 1px solid $primary-color;
+  }
+}
+.goto__visible{
+    transition: all 0.3s ease-in-out;
+}
+.gotop__icon {
+  transition: all 0.3s ease-in-out;
+  font-size: 13px;
+  color: #a3a1a2;
+  font-weight: 600;
+
+}

@@ -1,0 +1,45 @@
+@import "../../../../App.scss";
+.category__nav__wrapper {
+  width: 20%;
+  margin-top: 100px;
+}
+.category__nav__title {
+  margin-bottom: 30px;
+  & > span {
+    font-size: 23px;
+    font-weight: 500;
+    color: $primary-color;
+  }
+}
+
+.category__nav__item {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 24px;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 6px;
+  color: #6b6868;
+  cursor: pointer;
+  max-width: 100%;
+  width: 150px;
+}
+
+.category__nav__item:hover {
+  background-color: $primary-color;
+  color: #fff;
+  border: 1px solid $primary-color;
+}
+.active {
+  background-color: $primary-color !important;
+  color: #fff !important;
+  border: 1px solid $primary-color !important;
+}

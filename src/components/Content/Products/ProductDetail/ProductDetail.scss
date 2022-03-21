@@ -1,0 +1,67 @@
+@import "../../../../App.scss";
+
+.product__detail {
+  &__wrapper {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__img__wrapper {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+  }
+  &__img {
+    cursor: pointer;
+    &__border {
+      width: unset !important;
+      max-width: 555px;
+      max-height: 713px;
+      // min-height: 713px;
+      min-width: 522px;
+      border: 1px solid #949a9d;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    width: 100%;
+    &__slider {
+      width: 19%;
+      margin-top: 25px;
+    }
+  }
+  &__slider__main {
+    width: 83%;
+  }
+  &__info {
+  }
+}
+#root > div.product__detail__content > div.product__detail__container > div > div.product__detail__img__wrapper > div.product__detail__img__slider > div > div > div > div {
+  width: unset !important;
+}
+.slick-arrow.slick-prev::before {
+  font-size: 20px !important;
+}
+.slick-arrow.slick-next::before {
+  font-size: 25px !important;
+  position: absolute;
+  top: calc(50% - 25px / 2);
+  left: 3px;
+}
+.slick-arrow.slick-prev::before {
+  font-size: 25px !important;
+  position: absolute;
+  top: calc(50% - 25px / 2);
+  left: 3px;
+}
+.slide__border {
+  max-width: 100px;
+  max-height: 100px;
+  min-height: 100px;
+  min-width: 100px;
+}
+.slick-current .slide__border {
+  border: 2px solid $primary-color;
+}
+.slick-arrow{
+  border: none
+}

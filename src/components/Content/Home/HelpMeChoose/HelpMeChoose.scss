@@ -1,0 +1,20 @@
+.help__choose__container {
+  text-align: center;
+  // display: flex;
+  // flex-direction: column;
+  margin-bottom: 50px;
+  .help__choose__text {
+    display: block;
+    margin: 12px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.0917px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.017em;
+    color: #000;
+  }
+}
+.help__choose__text__special{
+    font-size: 44px !important;
+}
